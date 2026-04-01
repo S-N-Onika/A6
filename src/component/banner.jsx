@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye, faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faBullseye} from '@fortawesome/free-solid-svg-icons';
 
 const Banner = ({ data }) => {
     console.log(data);
@@ -31,7 +31,7 @@ const Banner = ({ data }) => {
                         </div>
                         <div className="flex gap-4 pt-8">
                             <button className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white font-semibold py-2 px-4 rounded-full hover:scale-105 transition-transform text-nowrap">Explore Products</button>
-                            <button className="btn btn-outline btn-primary rounded-4xl font-semibold"><FontAwesomeIcon icon={faPlay} style={{ color: "#9514fa", }} />Watch Demo</button>
+                            <button className="btn btn-outline btn-primary rounded-4xl font-semibold hover:scale-105 transition-transform text-nowrap"><img src="./assets/Play.png" alt="" />Watch Demo</button>
                         </div>
                     </div>
                 </div>
@@ -39,16 +39,16 @@ const Banner = ({ data }) => {
                     <img className="w-full lg:w-200 h-full lg:h-150 object-cover" src="../assets/banner.png" alt="Banner Image" />
                 </div>
             </div>
-            <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] flex justify-center w-full text-center px-15 py-10">
-                <div className="ml px-40 ">
+            <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] flex justify-center w-full text-center md:px-15 py-10">
+                <div className="ml md:px-40 px-12">
                     <h1 className=" text-white font-extrabold text-[44px]">50K+</h1>
                     <p className="text-gray-300 text-[16px]">Active Users</p>
                 </div>
-                <div className="ml px-40 border-r-2 border-l-2  border-gray-400">
+                <div className="ml md:px-40 px-12 border-r-2 border-l-2  border-gray-400">
                     <h1 className=" text-white font-extrabold text-[44px]">200+</h1>
                     <p className="text-gray-300 text-[16px]">Premium Tools</p>
                 </div>
-                <div className="ml px-40 ">
+                <div className="ml md:px-40 px-12">
                     <h1 className=" text-white font-extrabold text-[44px]">4.9</h1>
                     <p className="text-gray-300 text-[16px]">Rating</p>
                 </div>
