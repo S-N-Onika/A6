@@ -33,7 +33,7 @@ const Banner = ({ data }) => {
                     <img className="w-full lg:w-200 h-full lg:h-150 object-cover" src="../assets/banner.png" alt="Banner Image" />
                 </div>
             </div>
-            <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] flex justify-center w-full text-center md:px-15 py-10">
+            <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] flex justify-center w-full text-center lg:px-15 py-10">
                 <div className="ml md:px-40 px-12">
                     <h1 className=" text-white font-extrabold text-[44px]">50K+</h1>
                     <p className="text-gray-300 text-[16px]">Active Users</p>
