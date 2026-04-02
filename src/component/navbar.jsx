@@ -2,7 +2,7 @@ const Navbar = ({ cart }) => {
     const cartItems = cart || [];
 
     return (
-        <div className="navbar bg-white border-b border-[#f2f2f2] px-4 md:px-10 lg:px-20 justify-between">
+        <div className="navbar bg-white border-b border-[#f2f2f2] px-4 md:px-10 lg:px-50 justify-between">
             <div className="navbar-start w-auto">
                 <div className="flex items-center gap-1 font-medium">
                     <div className="dropdown dropdown-start">

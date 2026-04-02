@@ -1,16 +1,23 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Overview
 
-Currently, two official plugins are available:
+DigiTools Platform is a modern web application that showcases a collection of powerful digital tools designed to improve productivity and workflow. Users can explore different tools, view features, and manage selections in an interactive and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🧾 Description
 
-## React Compiler
+This project is built to provide a clean and engaging platform where users can discover useful digital tools in one place. It focuses on smooth UI/UX, dynamic data handling, and responsive design to deliver a seamless experience across devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
+* React Toastify
+* JSON API / Local Data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Key Features
+
+🔥 Interactive product/tool listing with dynamic rendering
+🛒 Add-to-cart functionality with real-time updates
+🔔 Toast notifications for user actions (add/remove items)
