@@ -2,7 +2,7 @@ const Banner = ({ data }) => {
     console.log(data);
     return (
         <>
-            <div className="grid grid-cols-1 lg:flex gap-30 md:mx-50 center mx-2 py-15">
+            <div className="grid grid-cols-1 lg:flex gap-30 md:mx-50 center mx-2 py-15 ">
                 <div className="space-y-4 grid justify-center content-center w-max">
                     <div className="badge badge-soft badge-primary flex items-center gap-2 bg-[#e1e7ff] rounded-3xl text-nowrap p-4">
                         <img src="./assets/group-5.png" alt="" />

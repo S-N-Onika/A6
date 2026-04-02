@@ -116,7 +116,7 @@ const Products = ({ apiData, cart, setCart, showCart, setShowCart }) => {
     }
 
     return (
-        <div className="mx-4 md:mx-20 lg:mx-46 space-y-10 mb-30 mt-30 font-sans">
+        <div className="mx-4 md:mx-20 lg:mx-46 space-y-10 mb-30 mt-30">
             <div className="grid grid-cols-1 justify-center contain-center text-center gap-6">
                 <h2 className="font-extrabold text-5xl">Premium Digital Tools</h2>
                 <p className="text-[#627382FF]">

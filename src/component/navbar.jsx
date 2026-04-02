@@ -1,4 +1,3 @@
-
 const Navbar = ({ cart }) => {
     const cartItems = cart || [];
 
@@ -13,11 +12,11 @@ const Navbar = ({ cart }) => {
                             </svg>
                         </div>
                         <ul tabIndex={0} className="menu dropdown-content bg rounded-box z-10 mt-3 p-2 shadow text-[#101727] w-52 text-xl">
-                            <li><a href="./Products.jsx">Products</a></li>
-                            <li><a href="./features">Features</a></li>
-                            <li><a href="./pricing">Pricing</a></li>
-                            <li><a href="./testimonials">Testimonials</a></li>
-                            <li><a href="./faq">FAQ</a></li>
+                            <li><a>Products</a></li>
+                            <li><a>Features</a></li>
+                            <li><a>Pricing</a></li>
+                            <li><a>Testimonials</a></li>
+                            <li><a>FAQ</a></li>
                         </ul>
                     </div>
                     <h2 className="text-3xl text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa] py-3 font-black">DigiTools</h2>
@@ -26,11 +25,11 @@ const Navbar = ({ cart }) => {
 
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal gap-5 px-1 text-xl font-medium text-[#101727]">
-                    <li><a href="./products">Products</a></li>
-                    <li><a href="./features">Features</a></li>
-                    <li><a href="./Pricing">Pricing</a></li>
-                    <li><a href="./testimonials">Testimonials</a></li>
-                    <li><a href="./faq">FAQ</a></li>
+                    <li><a>Products</a></li>
+                    <li><a>Features</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Testimonials</a></li>
+                    <li><a>FAQ</a></li>
                 </ul>
             </div>
 

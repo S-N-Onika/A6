@@ -5,6 +5,8 @@ import Banner from "./component/banner";
 import Products from "./component/Products";
 import "@fontsource/manrope";
 import "./index.css";
+// import { Features } from "tailwindcss";
+import Features from "./component/features ";
 
 const getApi = async () => {
   const res = await fetch("/Api.json");
@@ -23,6 +25,7 @@ function App() {
       <Banner />
       <Products apiData={apiData} cart={cart} setCart={setCart} showCart={showCart} setShowCart={setShowCart} />
       <ToastContainer position="top-right" autoClose={2000} />
+      <Features/>
     </div>
   );
 }
