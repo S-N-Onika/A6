@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye} from '@fortawesome/free-solid-svg-icons';
-
 const Banner = ({ data }) => {
     console.log(data);
     return (
@@ -8,10 +5,7 @@ const Banner = ({ data }) => {
             <div className="grid grid-cols-1 lg:flex gap-30 md:mx-50 center mx-2 py-15">
                 <div className="space-y-4 grid justify-center content-center w-max">
                     <div className="badge badge-soft badge-primary flex items-center gap-2 bg-[#e1e7ff] rounded-3xl text-nowrap p-4">
-                        <FontAwesomeIcon
-                            icon={faBullseye}
-                            className="linear-to-b from-[#4f39f6] to-[#9514fa]"
-                        />
+                        <img src="./assets/group-5.png" alt="" />
                         <span className="font-semibold text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-nowrap text-sm">
                             New: AI-Powered Tools Available
                         </span>
