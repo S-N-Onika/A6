@@ -7,6 +7,8 @@ import "@fontsource/manrope";
 import "./index.css";
 import Features from "./component/features ";
 import Pricing from "./component/pricing";
+import Testimonials from "./component/testimonials";
+import Footer from "./component/footer";
 
 const getApi = async () => {
   const res = await fetch("/Api.json");
@@ -27,6 +29,8 @@ function App() {
       <ToastContainer position="top-right" autoClose={2000} />
       <Features/>
       <Pricing/>
+      <Testimonials/>
+      <Footer/>
     </div>
   );
 }

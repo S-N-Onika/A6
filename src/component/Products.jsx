@@ -60,7 +60,7 @@ const Products = ({ apiData, cart, setCart, showCart, setShowCart }) => {
                                 onClick={() => handleCart(item)}
                                 className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white font-semibold rounded-full hover:scale-105 transition-transform w-full py-4"
                             >
-                                {inCart ? "Remove from Cart" : "Add to Cart"}
+                                {inCart ? "Added to Cart" : "Buy Now"}
                             </button>
                         </div>
                     );
@@ -71,10 +71,10 @@ const Products = ({ apiData, cart, setCart, showCart, setShowCart }) => {
     else{
         content = (
             <div className="max-w-6xl mx-auto">
-                <h3 className="text-2xl font-bold mb-6">Your Cart</h3>
-                <div className="border border-gray-200 rounded-2xl p-8 bg-white shadow-sm min-h-100 flex flex-col justify-center">
+                <div className="border border-gray-200 rounded-2xl p-8 bg-white shadow-sm h-max flex flex-col justify-center">
                     {cart.length > 0 ? (
                         <>
+                        <h3 className="text-2xl font-bold mb-6">Your Cart</h3>
                             <div className="space-y-4 mb-8">
                                 {cart.map((item) => (
                                     <div key={item.id} className="flex items-center justify-between p-4 border border-gray-100 rounded-xl bg-gray-50">
