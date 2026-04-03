@@ -21,3 +21,6 @@ This project is built to provide a clean and engaging platform where users can d
 🔥 Interactive product/tool listing with dynamic rendering
 🛒 Add-to-cart functionality with real-time updates
 🔔 Toast notifications for user actions (add/remove items)
+
+🔗 Netlify live link
+https://digitaltools-000.netlify.app/
