@@ -5,7 +5,7 @@ const Banner = ({ data }) => {
             <div className="grid grid-cols-1 lg:flex gap-30 md:mx-50 center mx-2 py-15 ">
                 <div className="space-y-4 grid justify-center content-center w-max">
                     <div className="badge badge-soft badge-primary flex items-center gap-2 bg-[#e1e7ff] rounded-3xl text-nowrap p-4">
-                        <img src="./assets/group-5.png" alt="" />
+                        <img src="/assets/group-5.png" alt="" />
                         <span className="font-semibold text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-nowrap text-sm">
                             New: AI-Powered Tools Available
                         </span>
@@ -30,7 +30,7 @@ const Banner = ({ data }) => {
                     </div>
                 </div>
                 <div>
-                    <img className="w-full lg:w-200 h-full lg:h-150 object-cover" src="../assets/banner.png" alt="Banner Image" />
+                    <img className="w-full lg:w-200 h-full lg:h-150 object-cover" src="/assets/banner.png" alt="Banner Image" />
                 </div>
             </div>
             <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] flex grid-cols-1 md:grid-cols-3 w-full text-center py-10 justify-center">

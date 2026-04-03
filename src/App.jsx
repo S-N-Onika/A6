@@ -5,7 +5,7 @@ import Banner from "./component/banner";
 import Products from "./component/Products";
 import "@fontsource/manrope";
 import "./index.css";
-import Features from "./component/features ";
+import Features from "./component/features";
 import Pricing from "./component/pricing";
 import Testimonials from "./component/testimonials";
 import Footer from "./component/footer";
@@ -27,10 +27,10 @@ function App() {
       <Banner />
       <Products apiData={apiData} cart={cart} setCart={setCart} showCart={showCart} setShowCart={setShowCart} />
       <ToastContainer position="top-right" autoClose={2000} />
-      <Features/>
-      <Pricing/>
-      <Testimonials/>
-      <Footer/>
+      <Features />
+      <Pricing />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
