@@ -5,7 +5,7 @@ import Banner from "./component/banner";
 import Products from "./component/Products";
 import "@fontsource/manrope";
 import "./index.css";
-import Features from "./component/features ";
+import Features from "./component/features";
 import Pricing from "./component/pricing";
 import Testimonials from "./component/testimonials";
 import Footer from "./component/footer";
